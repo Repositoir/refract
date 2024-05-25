@@ -3,3 +3,5 @@ cmake-build-debug-wsl-gcc/
 .idea/
 
 *.lang
+
+output
