@@ -14,5 +14,5 @@ The goal of this language is to "bend" to adapt to different needs of different 
 The language is 
 
 - Dynamically Typed
-- Compiled
+- Interpreted
 - Written in C++
