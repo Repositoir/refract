@@ -2,6 +2,4 @@ cmake-build-debug-wsl-clang/
 cmake-build-debug-wsl-gcc/
 .idea/
 
-new.lang
-output
 hello.txt
