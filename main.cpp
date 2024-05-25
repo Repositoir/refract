@@ -22,13 +22,16 @@ int main(int argc, const char* argv[]) {
         return EXIT_FAILURE;
     }
 
-    auto file = open_file(argv[1]);
+    try {
+        std::string fileContents = open_file(argv[1]);
+        Parser code{fileContents};
 
-    Parser code{file};
-
-    // code.print_contents();
-
-    code.run();
+        code.print_contents();
+        code.run();
+    } catch (const std::exception& e) {
+        std::cerr << e.what() << '\n';
+        return EXIT_FAILURE;
+    }
 
     return 0;
 }

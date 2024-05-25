@@ -9,14 +9,16 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+#include <unordered_map>
 
-#define KW_PRINT "printout"
+#include "defn.h"
 
 enum TokenType {
     IDENTIFIER,
     KEYWORD,
     DIGIT,
-    USER_DEF
+    USER_DEF,
+    END
 };
 
 struct WordAndType{
@@ -27,8 +29,11 @@ struct WordAndType{
 class Parser {
 private:
     std::vector<WordAndType> contents_;
+    std::unordered_map<std::string, TokenType> keyword_map;
+
+    void tokenize(const std::string &text);
 public:
-    Parser(std::string& text);
+    explicit Parser(const std::string& text);
 
     void print_contents();
     void run();

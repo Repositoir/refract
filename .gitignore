@@ -2,4 +2,4 @@ cmake-build-debug-wsl-clang/
 cmake-build-debug-wsl-gcc/
 .idea/
 
-hello.txt
+*.lang
