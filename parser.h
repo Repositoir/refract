@@ -10,7 +10,7 @@
 #include <sstream>
 #include <vector>
 
-#define KW_PRINT "aritra"
+#define KW_PRINT "printout"
 
 enum TokenType {
     IDENTIFIER,
