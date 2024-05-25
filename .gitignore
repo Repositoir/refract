@@ -1,4 +1,8 @@
 /cmake-build-debug-wsl-clang/
 /cmake-build-debug-wsl-gcc/
 /.idea
+
+# this is a comment
 .gitignore
+
+new.lang

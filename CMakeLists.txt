@@ -7,3 +7,5 @@ add_executable(Refract
         main.cpp
         parser.cpp
         parser.h)
+
+configure_file(new.lang new.lang COPYONLY)
