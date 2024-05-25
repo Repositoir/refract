@@ -15,7 +15,7 @@ Parser::Parser(std::string &text){
             try {
                 contents_.push_back({std::to_string(std::stoi(token)), TokenType::DIGIT});
             } catch (std::invalid_argument& err){
-            contents_.push_back({token, TokenType::USER_DEF});
+                contents_.push_back({token, TokenType::USER_DEF});
             }
         }
     }
