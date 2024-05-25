@@ -10,6 +10,7 @@ Parser::Parser(const std::string &text){
     keyword_map[STR_KW_END] = TokenType::END;
     keyword_map[BOOL_KW_TRUE] =  TokenType::KEYWORD;
     keyword_map[BOOL_KW_FALSE] = TokenType::KEYWORD;
+    keyword_map[STR_KW_TERMINATE] = TokenType::END;
 
     tokenize(text);
 }
@@ -32,7 +33,9 @@ void Parser::run() {
                 j++;
             }
             std::cout << std::endl;
-            i = j; // Move index to the end of the statement
+            i = 0; // Move index to the end of the statement
+        } else if (syn == STR_KW_TERMINATE){
+            return;
         }
     }
 }
