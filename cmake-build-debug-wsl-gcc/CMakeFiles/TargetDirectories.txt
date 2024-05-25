@@ -1,0 +1,3 @@
+/mnt/c/Users/Aritra/Desktop/programming/Refract/cmake-build-debug-wsl-gcc/CMakeFiles/Refract.dir
+/mnt/c/Users/Aritra/Desktop/programming/Refract/cmake-build-debug-wsl-gcc/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Aritra/Desktop/programming/Refract/cmake-build-debug-wsl-gcc/CMakeFiles/rebuild_cache.dir
