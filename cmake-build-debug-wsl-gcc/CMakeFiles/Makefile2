@@ -81,12 +81,12 @@ clean: CMakeFiles/Refract.dir/clean
 CMakeFiles/Refract.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Refract.dir/build.make CMakeFiles/Refract.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Refract.dir/build.make CMakeFiles/Refract.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Aritra/Desktop/programming/Refract/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=1,2 "Built target Refract"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Aritra/Desktop/programming/Refract/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=1,2,3 "Built target Refract"
 .PHONY : CMakeFiles/Refract.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Refract.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aritra/Desktop/programming/Refract/cmake-build-debug-wsl-gcc/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aritra/Desktop/programming/Refract/cmake-build-debug-wsl-gcc/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Refract.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aritra/Desktop/programming/Refract/cmake-build-debug-wsl-gcc/CMakeFiles 0
 .PHONY : CMakeFiles/Refract.dir/rule

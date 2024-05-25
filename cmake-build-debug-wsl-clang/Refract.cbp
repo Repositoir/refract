@@ -85,6 +85,12 @@
 		<Unit filename="/mnt/c/Users/Aritra/Desktop/programming/Refract/main.cpp">
 			<Option target="Refract"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/Aritra/Desktop/programming/Refract/parser.cpp">
+			<Option target="Refract"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Aritra/Desktop/programming/Refract/parser.h">
+			<Option target="Refract"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Aritra/Desktop/programming/Refract/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Aritra/Desktop/programming/Refract/main.cpp" "CMakeFiles/Refract.dir/main.cpp.o" "gcc" "CMakeFiles/Refract.dir/main.cpp.o.d"
+  "/mnt/c/Users/Aritra/Desktop/programming/Refract/parser.cpp" "CMakeFiles/Refract.dir/parser.cpp.o" "gcc" "CMakeFiles/Refract.dir/parser.cpp.o.d"
   )
 
 # Targets to which this target links.

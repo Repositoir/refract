@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Refract.dir/main.cpp.o"
   "CMakeFiles/Refract.dir/main.cpp.o.d"
+  "CMakeFiles/Refract.dir/parser.cpp.o"
+  "CMakeFiles/Refract.dir/parser.cpp.o.d"
   "Refract"
   "Refract.pdb"
 )

@@ -4,4 +4,6 @@ project(Refract)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Refract
-        main.cpp)
+        main.cpp
+        parser.cpp
+        parser.h)
