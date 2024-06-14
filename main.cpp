@@ -26,7 +26,7 @@ int main(int argc, const char* argv[]) {
         std::string fileContents = open_file(argv[1]);
         Parser code{fileContents};
 
-        code.print_contents();
+        // code.print_contents();
         code.run();
     } catch (const std::exception& e) {
         std::cerr << e.what() << '\n';
